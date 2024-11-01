@@ -62,7 +62,7 @@ public class Business extends Auditable {
     private Messaging messaging;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List<SpecialHour> specialHours;
+    private List<OpeningHour> specialHours;
 
     @OneToMany(cascade = CascadeType.ALL)
     private List<BusinessHour> hours;
